@@ -1,14 +1,19 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
-    <div class="nekiOkvir"></div>
+<html>
+    <head>
+        <title>JavascriptHtml</title>
+        <meta charset="utf-8">
+    </head>
+    <body>
+        <div class="okvir"></div>
 
-    <script src="mainscript.js"></script>
-</body>
+
+        <script>
+            window.addEventListener('load', funkcija);
+
+            function funkcija(){
+                let holder = document.getElementById('okvir');
+                holder.style.border = '2px solid #000000';
+            }
+        </script>
+    </body>
 </html>
